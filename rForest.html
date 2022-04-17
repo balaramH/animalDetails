@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reservation Forest </title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+
+    <style>
+        .heads {
+            height: 80px;
+            background-color: rgb(129, 243, 243);
+            margin: 0px;
+            border: 3px solid black;
+            padding: 25px;
+            font-size: 50px;
+            text-align: center;
+            font-family: Orbitron;
+        }
+
+        body {
+            background: white;
+        }
+
+        .rf {
+            color: #17D4FE;
+            font-size: 60px;
+            font-family: Orbitron;
+            letter-spacing: 7px;
+        }
+
+        #an,
+        #ca,
+        #ha,
+        #ar {
+            position: absolute;
+            width: 250px;
+            height: 40px;
+            font-size: 30px;
+        }
+
+        #an {
+            top: 35%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgb(58, 221, 132);
+        }
+
+        #ca {
+
+            top: 45%;
+            left: 20%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgb(2, 2, 5);
+            color: white;
+        }
+
+        #ha {
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgb(2, 2, 5);
+            color: white;
+        }
+
+        #ar {
+            top: 45%;
+            left: 80%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgb(2, 2, 5);
+            color: white;
+        }
+
+        .menu {
+            display: flex;
+            border: 2px solid rgb(8, 8, 8);
+            background-color: rgb(192, 245, 245);
+            height: 55vh;
+            justify-content: first baseline;
+            align-items: flex-start;
+            padding: 10px;
+            font-size: 30px;
+        }
+
+        .rforest {
+            display: flex;
+            border: 2px solid green;
+            background-color: wheat;
+            height: 25vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .rft{
+            display: flex;
+            border: 2px solid rgb(8, 8, 8);
+            background-color: rgb(192, 245, 245);
+            height: 25vh;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="rforest">
+        <div class="heads">welcome to India Reservation Forest world </div>
+    </div>
+  
+    <br>
+    <div class="rf">
+        <span><button id="an" onclick="rft">Animals area</button> </span>
+       
+    </div>
+    <div class="rft">      
+            <span><button id="ca"> Carnivorous</button> </span>
+            <span><button id="ha"> Harnivorous</button> </span>
+            <span><button id="ar"> Ominvores</button> </span>
+
+    </div>
+    <br><br>
+    <div class="menu">     
+        <span style="justify-content: right;"><button id="reset"> Clear</button> </span>   
+        <div class="carn">
+            <select name="carni" id="cara">
+                <option value=" ">None</option>
+                <option  value="tiger">Tiger</option>
+                <option value="tiger">tiger</option>
+                <option value="fox">Fox</option>
+                <option value="hynes">Haynes</option>
+            </select>          
+        </div>
+        <div class="Harn">
+            <select name="harn" id="hara">
+                <option value=" ">None</option>
+                <option value="elephant">Elephant</option>
+                <option value="horse">Horse</option>
+                <option value="giraff">Giraff</option>
+                <option value="kangaroo">Kangaroo</option>
+            </select>      
+
+        </div>
+        <div class="om">
+            <select name="omni" id="omni">
+                <option value=" ">None</option>
+                <option value="dog">Dog</option>
+                <option value="Squirrel">Squirrel</option>
+                <option value="Rat">Rat</option>
+                <option value="Bear">Bear</option>        
+            </select>        
+
+        </div>
+        <script>
+
+        </script>
+</body>
+
+</html>

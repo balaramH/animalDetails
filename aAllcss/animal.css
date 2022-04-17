@@ -1,0 +1,35 @@
+body {
+    background: center;
+    padding: 0;
+    margin: 0;
+}
+
+.aAll {
+    margin: 34px;
+    display: flex;
+}
+
+.aAll .box {
+    
+    border: 2px solid brown;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    background: #76a3e3;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.aAll .box img {
+
+    margin: auto;
+    display: block;
+}
+
+.box img {
+    width: 600px;
+}
+
+p {
+    text-align: top;
+}
